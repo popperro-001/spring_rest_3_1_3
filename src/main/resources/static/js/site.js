@@ -121,7 +121,7 @@ function addUserItem() {
             usernameInputText.value = "";
             passwordInputText.value = "";
             emailInputText.value = "";
-            rolesSelect();
+            roles.value = "";
         })
         .catch(error => console.error("Unable to add User.", error))
 }
